@@ -7,10 +7,25 @@ class Stack:
         return self.list.pop(0)
 
 stack = Stack()
-stack.push(10)
-stack.push(20)
-stack.push(30)
-stack.push(40)
-print(stack.list)
-print(stack.pop())
-print(stack.list)
+# stack.push(10)
+# stack.push(20)
+# stack.push(30)
+# stack.push(40)
+# print(stack.list)
+# print(stack.pop())
+# print(stack.list)
+
+string = "hello"
+revArr = []
+
+for char in string:
+    stack.push(char)
+
+reversed = "".join(stack.list)
+print(reversed)
+
+# for char in stack.list:
+#     revArr.append(char)
+
+# reversed = "".join(revArr)
+# print(revArr)
